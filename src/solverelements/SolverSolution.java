@@ -14,6 +14,12 @@ public class SolverSolution {
     public SolverSolution() {
     }
 
+    public SolverSolution(ArrayList<SolverState> states, int moves, boolean solvable) {
+        this.states = states;
+        this.moves = moves;
+        this.solvable = solvable;
+    }
+
     public ArrayList<SolverState> getStates() {
         return states;
     }

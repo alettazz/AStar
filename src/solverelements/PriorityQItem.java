@@ -9,6 +9,10 @@ public class PriorityQItem {
     public PriorityQItem() {
     }
 
+    public PriorityQItem(int priority, Board board) {
+        this.priority = priority;
+        this.board = board;
+    }
 
     public int getPriority() {
         return priority;

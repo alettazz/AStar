@@ -16,6 +16,7 @@ public class Board {
 
     //actual position of 0, the empty tile
     private TileCoordinate zeroPos;
+    private int priority =0 ;
 
 
     public Board(int[][] board, TileCoordinate zeroPos) {
@@ -27,7 +28,7 @@ public class Board {
 
     }
 
-    private int[][] getGoalBoard(int width, int height) {
+    public int[][] getGoalBoard(int width, int height) {
         int[][] goal = new int[width][height];
 
         int maxNo = width * height; //should always be 9
@@ -81,7 +82,7 @@ public class Board {
         int priority = moves;
 
         for (int i = 0; i < numberOfTiles; i++) {
-            CoordComparator coordComparator = new CoordComparator();
+            CoordComparator coordComparator = new CoordComparator(zeroPos);
 
             for (int j = 0; j < this.board.length; j++) {
                 int boardX = this.board[j][i];
@@ -147,6 +148,14 @@ public class Board {
                 ", goal=" + Arrays.toString(goal) +
                 ", zeroPos=" + zeroPos +
                 '}';
+    }
+
+    public void setPriority(int priority) {
+        this.priority =priority;
+    }
+
+    public int getPriorityState(){
+        return  this.priority;
     }
 }
 

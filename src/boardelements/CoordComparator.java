@@ -4,7 +4,8 @@ public class CoordComparator {
     private TileCoordinate board;
     private TileCoordinate goal;
 
-    public CoordComparator() {
+    public CoordComparator(TileCoordinate board) {
+        this.board = board;
     }
 
     public CoordComparator(TileCoordinate board, TileCoordinate goal) {

@@ -11,6 +11,12 @@ public class SolverState {
     public SolverState() {
     }
 
+    public SolverState(Board board, int moves, SolverState previous) {
+        this.board = board;
+        this.moves = moves;
+        this.previous = previous;
+    }
+
     public Board getBoard() {
         return board;
     }
