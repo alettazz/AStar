@@ -1,6 +1,6 @@
 **8-Puzzle solved with A * Search using two Heuristics.**
 
-Considering a 3x3 grid, the Puzzle board is filled with numbers from 1-8 and a 0 representing the hole. Using A Star Search algorithm the solution provided compares two Heuristics: 
+Considering a 3x3 grid, the **Puzzle** board is filled with numbers from 1-8 and a 0 representing the hole. Using A Star Search algorithm the solution provided compares two Heuristics:
 > 1. The number of tiles not being on their "goal" place;
 > 2. Using the Manhattan Distance.
   

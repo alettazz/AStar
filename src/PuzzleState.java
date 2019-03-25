@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
+/**
+ * Created by @alettazz.
+ * Date: 3/21/2019
+ */
 public class PuzzleState implements State {
 
     private final int[] GOAL = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 0};

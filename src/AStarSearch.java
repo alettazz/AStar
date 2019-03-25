@@ -2,7 +2,10 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
+/**
+ * Created by @alettazz.
+ * Date: 3/21/2019
+ */
 public class AStarSearch {
 
     public static void search(int[] board, boolean rand, int randomPushes, boolean solseq, boolean nvisited, boolean pcost, String heuristic) {

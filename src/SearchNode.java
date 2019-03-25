@@ -1,3 +1,7 @@
+/**
+ * Created by @alettazz.
+ * Date: 3/21/2019
+ */
 public class SearchNode
 {
 

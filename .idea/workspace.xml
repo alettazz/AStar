@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a6b82cb4-b1fb-4fa1-9839-e6dcce4882dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ASolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ASolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AStarSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AStarSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuzzleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuzzleState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardelements/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardelements/CoordComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardelements/TileCoordinate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solverelements/PriorityQItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solverelements/SolverSolution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solverelements/SolverState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ASolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AStarSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,17 +61,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PuzzleState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
@@ -134,12 +152,16 @@
         <option value="$PROJECT_DIR$/src/AStarSearch/SearchNode.java" />
         <option value="$PROJECT_DIR$/src/AStarSearch/AStarSearch.java" />
         <option value="$PROJECT_DIR$/src/be.txt" />
-        <option value="$PROJECT_DIR$/src/State.java" />
-        <option value="$PROJECT_DIR$/src/SearchNode.java" />
+        <option value="$PROJECT_DIR$/src/Runner.java" />
+        <option value="$PROJECT_DIR$/src/a.java" />
+        <option value="$PROJECT_DIR$/src/asd.java" />
         <option value="$PROJECT_DIR$/src/PuzzleState.java" />
         <option value="$PROJECT_DIR$/src/ASolver.java" />
         <option value="$PROJECT_DIR$/src/AStarSearch.java" />
-        <option value="$PROJECT_DIR$/src/Runner.java" />
+        <option value="$PROJECT_DIR$/src/State.java" />
+        <option value="$PROJECT_DIR$/src/SearchNode.java" />
+        <option value="$PROJECT_DIR$/src/asfg.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,8 +198,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553533418720" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553534338024" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -252,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553466108831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BUG RESOLVED: number of visited nodes corrected &#10;ADDED: argument random added to the list">
+      <created>1553533726231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553533726231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -297,11 +326,18 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="initial board created" />
     <MESSAGE value="priority queue for solution" />
     <MESSAGE value="a star search added" />
-    <option name="LAST_COMMIT_MESSAGE" value="a star search added" />
+    <MESSAGE value="BUG RESOLVED: number of visited nodes corrected &#10;ADDED: argument random added to the list" />
+    <option name="LAST_COMMIT_MESSAGE" value="BUG RESOLVED: number of visited nodes corrected &#10;ADDED: argument random added to the list" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,9 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASolver.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -453,44 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AStarSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,10 +506,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asd.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AStarSearch.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asfg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AStarSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PuzzleState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
@@ -524,6 +558,31 @@
             <element signature="e#3246#3247#0" expanded="true" />
             <element signature="e#3286#3287#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
