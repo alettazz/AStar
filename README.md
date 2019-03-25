@@ -49,7 +49,7 @@ this example uses the heuristic of number of tiles out of their goal place
 
 giving a **cost**: 26
 
-**nodes visited**:27
+**nodes visited**:19799
 
 **rand** 5 :
     
@@ -69,7 +69,7 @@ this example uses the heuristic of Manhattan Distance
 
 giving a **cost**: 20
 
-**nodes visited**:21
+**nodes visited**:2789
 
 **rand** 5 :
     
