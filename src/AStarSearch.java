@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class AStarSearch {
 
-    public static void search(int[] board, boolean rand, boolean solseq, boolean nvisited, boolean pcost, String heuristic) {
+    public static void search(int[] board, boolean rand, int randomPushes, boolean solseq, boolean nvisited, boolean pcost, String heuristic) {
         SearchNode root = new SearchNode(new PuzzleState(board));
         Queue<SearchNode> q = new LinkedList<>();
         q.add(root);
@@ -22,7 +22,7 @@ public class AStarSearch {
 
                 for (int i = 0; i < tempSuccessors.size(); i++) {
                     SearchNode checkedNode;
-                    if (heuristic.equals("1")) {
+                    if (heuristic.equals("1")) {//heuristic not at place
                         checkedNode = new SearchNode(tempNode, tempSuccessors.get(i), tempNode.getCost() + tempSuccessors.get(i).findCost(), ((PuzzleState) tempSuccessors.get(i)).getNotAtPlace());
                     } else {
                         checkedNode = new SearchNode(tempNode, tempSuccessors.get(i), tempNode.getCost() + tempSuccessors.get(i).findCost(), ((PuzzleState) tempSuccessors.get(i)).getManhattanDist());
@@ -69,10 +69,16 @@ public class AStarSearch {
                         tempNode.getCurrentState().printState();
                         System.out.println();
                     }
+                    if (rand && i == randomPushes) {
+                        tempNode.getCurrentState().printState();
+                        System.out.println();
+
+                    }
+
                 }
 
                 if (pcost) {
-                    System.out.println("Cost: " + tempNode.getCost());
+                    System.out.println("Cost (the number of pushes done): " + tempNode.getCost());
                 }
                 if (nvisited) {
                     System.out.println("The number of nodes visited: " + searchCount);

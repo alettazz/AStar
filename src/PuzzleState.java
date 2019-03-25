@@ -108,9 +108,9 @@ public class PuzzleState implements State {
     @Override
     public void printState() {
         System.out.println(currentBoard[0] + " | " + currentBoard[1] + " | "+ currentBoard[2]);
-        System.out.println("---------");
+        System.out.println("----------");
         System.out.println(currentBoard[3] + " | " + currentBoard[4] + " | "+ currentBoard[5]);
-        System.out.println("---------");
+        System.out.println("----------");
         System.out.println(currentBoard[6] + " | " + currentBoard[7] + " | "+ currentBoard[8]);
 
     }
